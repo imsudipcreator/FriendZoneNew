@@ -1,0 +1,28 @@
+.images_set1{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(300px , 1fr));
+    column-gap: 0.75rem;
+    row-gap: 0.75rem;
+    
+}
+.card{
+    justify-self: center;
+}
+
+.spinner-wrapper{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 4s;
+}
+.spinner-grow{
+    height: 9vw;
+    width: 9vw;
+}
