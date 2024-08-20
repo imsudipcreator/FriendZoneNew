@@ -21,10 +21,10 @@ if (toastTrigger) {
 };
 
 
-let passCode='friendzone';
-let userCode=prompt("Enter PassWord to access this WebPage :");
+// let passCode='friendzone';
+// let userCode=prompt("Enter PassWord to access this WebPage :");
 
-while(passCode!==userCode){
-    userCode=prompt("Nope that's not the right password! Try again or contact with the developer :")
-}
-console.log("Welcome ! You guessed the right password");
+// while(passCode!==userCode){
+//     userCode=prompt("Nope that's not the right password! Try again or contact with the developer :")
+// }
+// console.log("Welcome ! You guessed the right password");
