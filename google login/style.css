@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) , url(sabai.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10%;
+    color: white;
+}
+.hero h3{
+    margin-top: 10%;
+    font-weight: 500;
+    font-size: 30px;
+}
+.hero h1{
+    margin-top: 40px;
+    font-weight:800;
+    font-size: 50px;
+}
+.hero p{
+    margin: 10px 0 40px;
+}
+form{
+    display: flex;
+    width: fit-content;
+    background-color: white;
+}
+
+form input {
+    padding:4% ;
+    width: 400px;
+    height:60px ;
+    border: none;
+    outline: none;
+}
+form button {
+    
+    border: none;
+    outline: none;
+    width: 80px;
+    height:60px;
+background-color: #008000;
+}
+form button i {
+    font-size: 40px;
+    text-align: center;
+
+}
+span{
+    color: #008000;
+    margin-top: 10px;
+    display: block;
+}
+
+.toastbox{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.toast{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.toast i {
+    font-size: 20px;
+    margin: 0 10px;
+    color: #008000;
+}
+
+
+@media screen and (max-width:600px){
+
+    .hero{
+        padding: 20px 5%;
+        color: white;
+    }
+    .hero h3{
+        font-weight: 300;
+        font-size: 20px;
+    }
+    .hero h1{
+        margin-top: 20px;
+        font-weight:600;
+        font-size: 30px;
+    }
+    .hero p{
+        font-weight: lighter;
+        margin: 5px 0 40px;
+    }
+    form{
+        display: flex;
+        width: 100%;
+        height:40px;
+    }
+    form input {
+        padding:4% ;
+        width: 80%;
+       height: 100%;
+    }
+    form button {
+        width: 20%;
+        height: 100%;
+    }
+    form button i {
+        font-size: 20px;
+    
+    }
+    span{
+        margin-top: 10px;
+        font-size: smaller;
+    }
+    
+    .toastbox{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    }
+    .toast{
+        height: 50px;
+        width: 80vw;
+        transform: translateX(-9px);
+    }
+    
+}
